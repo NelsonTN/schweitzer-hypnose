@@ -340,8 +340,37 @@ strong { font-weight: 400; color: var(--violet-dark); }
 
 .col-text .btn { margin-top: 0.5rem; }
 
-.photo-caption {
-  margin-top: 1.25rem;
+.photo-quote-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(94, 82, 128, 0.6);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  padding: 1rem 1.25rem;
+  text-align: center;
+}
+
+.photo-quote-overlay p {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 0.95rem;
+  color: #ffffff;
+  line-height: 1.55;
+  margin: 0;
+}
+
+.photo-quote-overlay .photo-quote-source {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 0.82rem;
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: 0.35rem;
+}
+
+.photo-caption-below {
+  margin-top: 1rem;
   font-family: var(--font-display);
   font-size: 1.1rem;
   font-style: italic;
