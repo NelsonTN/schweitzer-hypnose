@@ -356,17 +356,19 @@ strong { font-weight: 400; color: var(--violet-dark); }
   font-family: var(--font-display);
   font-style: italic;
   font-size: 0.95rem;
-  color: #ffffff;
+  color: #2D1F3D;
   line-height: 1.55;
   margin: 0;
+  text-shadow: 0 1px 12px rgba(255, 255, 255, 0.3);
 }
 
 .photo-quote-overlay .photo-quote-source {
   font-family: var(--font-display);
   font-style: italic;
   font-size: 0.82rem;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(45, 31, 61, 0.8);
   margin-top: 0.35rem;
+  text-shadow: 0 1px 12px rgba(255, 255, 255, 0.3);
 }
 
 .photo-caption-below {
