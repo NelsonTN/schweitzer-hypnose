@@ -380,6 +380,7 @@ strong { font-weight: 400; color: var(--violet-dark); }
   color: var(--violet);
   line-height: 1.65;
   padding: 0 0.5rem;
+  border: none;
 }
 
 .accompagnement-intro {
