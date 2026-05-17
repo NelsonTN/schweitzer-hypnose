@@ -352,7 +352,7 @@ strong { font-weight: 400; color: var(--violet-dark); }
 .photo-quote-overlay p {
   font-family: var(--font-display);
   font-style: italic;
-  font-size: 0.95rem;
+  font-size: 1.05rem;
   color: #2D1F3D;
   line-height: 1.55;
   margin: 0;
@@ -371,7 +371,7 @@ strong { font-weight: 400; color: var(--violet-dark); }
 .photo-caption-below {
   margin-top: 1rem;
   font-family: var(--font-display);
-  font-size: 1.1rem;
+  font-size: 1.25rem;
   font-style: italic;
   text-align: center;
   color: var(--violet);
