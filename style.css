@@ -303,6 +303,7 @@ strong { font-weight: 400; color: var(--violet-dark); }
   width: 100%;
   height: 100%;
   object-fit: cover;
+  filter: url(#duotone-pascale);
 }
 
 .photo-frame.photo-placeholder img { display: none; }
@@ -310,7 +311,7 @@ strong { font-weight: 400; color: var(--violet-dark); }
 .photo-placeholder-text {
   position: absolute;
   inset: 0;
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -320,7 +321,7 @@ strong { font-weight: 400; color: var(--violet-dark); }
   line-height: 1.6;
 }
 
-.photo-frame:not(.photo-placeholder) .photo-placeholder-text { display: none; }
+.photo-frame.photo-placeholder .photo-placeholder-text { display: flex; }
 
 .col-text p {
   color: var(--texte-doux);
