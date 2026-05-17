@@ -342,12 +342,9 @@ strong { font-weight: 400; color: var(--violet-dark); }
 
 .photo-quote-overlay {
   position: absolute;
-  bottom: 0;
+  top: 0;
   left: 0;
   right: 0;
-  background: rgba(94, 82, 128, 0.6);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
   padding: 1rem 1.25rem;
   text-align: center;
 }
