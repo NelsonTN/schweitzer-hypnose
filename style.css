@@ -727,10 +727,12 @@ strong { font-weight: 400; color: var(--violet-dark); }
 .mentions-legales p {
   font-size: 0.8rem;
   line-height: 1.7;
-  color: rgba(255,255,255,0.5);
+  color: rgba(255,255,255,0.55);
   font-weight: 300;
   margin-bottom: 0.4rem;
 }
+
+.mentions-legales strong { color: rgba(255,255,255,0.85); }
 
 .footer-copy {
   margin-top: 1.5rem;
