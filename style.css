@@ -1,6 +1,6 @@
 /* === VARIABLES === */
 :root {
-  --hero-logo-col: 400px;
+  --hero-logo-col: 460px;
   --hero-gap: 4rem;
   --violet: #8B7BA8;
   --violet-dark: #5E5280;
@@ -205,7 +205,7 @@ strong { font-weight: 400; color: var(--violet-dark); }
 }
 
 .hero-logo {
-  width: clamp(271px, 29vw, 387px);
+  width: clamp(312px, 33vw, 445px);
 }
 
 .hero-eyebrow {
@@ -929,7 +929,7 @@ strong { font-weight: 400; color: var(--violet-dark); }
     text-align: center;
     gap: 2rem;
   }
-  .hero-logo { width: 250px; margin: 0 auto; }
+  .hero-logo { width: 288px; margin: 0 auto; }
   .hero-subtitle { margin-left: auto; margin-right: auto; }
 }
 
@@ -938,7 +938,7 @@ strong { font-weight: 400; color: var(--violet-dark); }
   .section { padding: 4rem 0; }
 
   .hero-inner { gap: 1.5rem; padding-bottom: 4rem; }
-  .hero-logo { width: 232px; max-width: 232px; }
+  .hero-logo { width: 267px; max-width: 267px; }
 
   .nav-links {
     display: none;
